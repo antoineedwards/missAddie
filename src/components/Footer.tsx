@@ -1,0 +1,3 @@
+import { Link } from "react-router-dom";
+import content from "../data/fundContent.json";
+export function Footer() { return <footer className="mt-20 bg-brand-900 text-stone-100"><div className="mx-auto grid max-w-6xl gap-10 px-5 py-12 sm:grid-cols-2"><div><p className="font-serif text-2xl font-semibold">{content.fundName}</p><p className="mt-4 max-w-md text-sm leading-6 text-stone-300">{content.tagline}</p></div><div className="sm:text-right"><div className="flex gap-4 text-sm sm:justify-end"><Link to="/about">About</Link><Link to="/eligibility">Eligibility</Link></div><p className="mt-6 text-sm text-stone-300">In honor of Viola Minott (Miss Addie)</p></div></div></footer>; }

@@ -1,0 +1,24 @@
+{
+  "fundName": "The Miss Addie Education Fund",
+  "tagline": "A Moore Town sustainable education framework for community – by community",
+  "vision": "Empower young people in Moore Town and the upper Rio Grande Valley to access and complete quality education and skills training, supported by community-led funding and mentorship to enable beneficiaries to meaningfully contribute to community and nation building.",
+  "mission": "To support young people in building brighter futures through learning, guidance, and community support.",
+  "launchInfo": { "date": "March 29, 2026", "occasion": "Memorial service of Viola Minott (Miss Addie)", "initiative": "Bringing the H.E.A.T. (Health, Education, Agriculture, and Tourism) to Portland" },
+  "keyPrinciples": [
+    { "title": "Dignity over charity", "description": "Fostering respect, self-determination, and mutual elevation rather than transactional hand-outs." },
+    { "title": "Equity over competition", "description": "Prioritizing support based on unique personal and household barriers over purely academic contest." },
+    { "title": "Mentorship is just as important as money", "description": "Pairing every financial disbursement with active role-model engagement and personal guidance." },
+    { "title": "Community ownership", "description": "Rooted in the leadership, traditions, and direct participation of the Rio Grande Valley community." },
+    { "title": "Transparency and accountability", "description": "Clear governance, published outcomes, and open stewardship of all community contributions." },
+    { "title": "Learning and adaptation", "description": "Continually evolving the framework through learner feedback and reflection." }
+  ],
+  "administrators": [
+    { "name": "Roma Robinson", "role": "Co-Chair & Account Manager", "category": "Executive Committee" },
+    { "name": "Steve Wright", "role": "Co-Chair & Mentorship Lead", "category": "Executive Committee" },
+    { "name": "Kianna Kilburn", "role": "Secretary", "category": "Executive Committee" },
+    { "name": "Nathaniel Minott", "role": "Advisor", "category": "Advisory Board" },
+    { "name": "Wilton Stevens", "role": "Advisor", "category": "Advisory Board" },
+    { "name": "Erva-Jean Stevens-Murphy", "role": "Advisor", "category": "Advisory Board" }
+  ],
+  "coverage": { "academic": ["Tuition and registration fees", "Books and stationeries", "Transportation (where required)", "Exam fees or certification costs"], "mentorship": ["One-to-one or small group mentoring", "Academic guidance and tracking", "Life skills and leadership development", "Career exposure and role-model engagement"] }
+}
