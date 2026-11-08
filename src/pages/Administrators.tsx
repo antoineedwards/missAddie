@@ -1,6 +1,13 @@
-import { ImagePlaceholder } from "../components/ImagePlaceholder";
 import { SectionHeader } from "../components/SectionHeader";
 import content from "../data/fundContent.json";
+
+const imageModules = import.meta.glob("../assets/images/*", { eager: true, import: "default" }) as Record<string, string>;
+
+function resolveImage(filename: string): string | undefined {
+  if (!filename) return undefined;
+  const key = `../assets/images/${filename}`;
+  return imageModules[key];
+}
 
 export function Administrators() {
   const categories = ["Executive Committee", "Advisory Board"];
@@ -20,15 +27,19 @@ export function Administrators() {
               .filter((person) => person.category === category)
               .map((person) => {
                 const [role, responsibility] = person.role.split(" & ");
+                const imageSrc = resolveImage(person.image);
                 return (
                   <article
                     className="rounded-xl bg-white p-6 text-center shadow-sm ring-1 ring-stone-200 sm:p-7"
                     key={person.name}
                   >
-                    <ImagePlaceholder
-                      className="mx-auto h-20 w-20 aspect-square rounded-full sm:h-24 sm:w-24"
-                      caption={`Administrator – ${person.name}`}
-                    />
+                    <div className="overflow-hidden rounded-xl border border-stone-200 bg-stone-100 shadow-md">
+                      <img
+                        src={imageSrc}
+                        alt={person.name}
+                        className="aspect-[4/3] w-full object-cover"
+                      />
+                    </div>
                     <h3 className="mt-4 font-serif text-xl text-brand-900 sm:mt-5 sm:text-2xl">
                       {person.name}
                     </h3>

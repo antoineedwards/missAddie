@@ -13,12 +13,12 @@
     { "title": "Learning and adaptation", "description": "Continually evolving the framework through learner feedback and reflection." }
   ],
   "administrators": [
-    { "name": "Roma Robinson", "role": "Co-Chair & Account Manager", "category": "Executive Committee" },
-    { "name": "Steve Wright", "role": "Co-Chair & Mentorship Lead", "category": "Executive Committee" },
-    { "name": "Kianna Kilburn", "role": "Secretary", "category": "Executive Committee" },
-    { "name": "Nathaniel Minott", "role": "Advisor", "category": "Advisory Board" },
-    { "name": "Wilton Stevens", "role": "Advisor", "category": "Advisory Board" },
-    { "name": "Erva-Jean Stevens-Murphy", "role": "Advisor", "category": "Advisory Board" }
+    { "name": "Roma Robinson", "role": "Co-Chair & Account Manager", "category": "Executive Committee", "image": "roma_robinson.jpeg"},
+    { "name": "Steve Wright, PhD", "role": "Co-Chair & Mentorship Lead", "category": "Executive Committee", "image": "steve_wright.jpeg" },
+    { "name": "Kianna Kilburn Moore", "role": "Secretary", "category": "Executive Committee", "image": "kianna_kilburn-moore.jpeg" },
+    { "name": "Nathaniel Minott", "role": "Advisor", "category": "Advisory Board", "image": "" },
+    { "name": "Wilton Stevens", "role": "Advisor", "category": "Advisory Board", "image": "wilton_stevens.jpeg" },
+    { "name": "Erva-Jean Stevens-Murphy", "role": "Advisor", "category": "Advisory Board", "image": "erva_jean_stevens-murphy.jpeg" }
   ],
   "coverage": { "academic": ["Tuition and registration fees", "Books and stationeries", "Transportation (where required)", "Exam fees or certification costs"], "mentorship": ["One-to-one or small group mentoring", "Academic guidance and tracking", "Life skills and leadership development", "Career exposure and role-model engagement"] }
 }
