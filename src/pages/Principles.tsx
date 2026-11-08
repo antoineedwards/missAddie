@@ -1,6 +1,7 @@
 import { ImagePlaceholder } from "../components/ImagePlaceholder";
 import { SectionHeader } from "../components/SectionHeader";
 import content from "../data/fundContent.json";
+import residents from "../assets/images/moore_town_residents.jpg";
 
 export function Principles() {
   return (
@@ -9,11 +10,12 @@ export function Principles() {
         These are the values we return to as we support learners and steward community contributions.
       </SectionHeader>
 
-      <ImagePlaceholder
-        className="mt-10 sm:mt-12"
-        aspectRatio="aspect-[16/7]"
-        caption="Moore Town Community Gathering"
-      />
+      <img 
+        src={residents}
+        className="aspect-[4/3] mt-10 sm:mt-12"
+        alt="Moore Town residents gathering."
+        >
+      </img>
 
       <div className="mt-10 divide-y divide-stone-200 sm:mt-12">
         {content.keyPrinciples.map((principle, index) => (
