@@ -1,6 +1,7 @@
 import { ImagePlaceholder } from "../components/ImagePlaceholder";
 import { SectionHeader } from "../components/SectionHeader";
 import content from "../data/fundContent.json";
+import missAddie from "../assets/images/miss_addie.jpeg"
 
 export function About() {
   const groups = [
@@ -19,7 +20,9 @@ export function About() {
       <section className="mt-12 grid gap-10 sm:mt-14 lg:grid-cols-[.75fr_1.25fr] lg:gap-16">
         {/* On mobile: image is narrower and centered */}
         <div className="mx-auto w-full max-w-xs sm:max-w-sm lg:mx-0 lg:max-w-none">
-          <ImagePlaceholder aspectRatio="aspect-[4/5]" caption="Miss Addie Memorial Portrait" />
+          <img src= {missAddie}
+          className="aspect-[3/4] w-full object-cover"
+          />
         </div>
         <div className="space-y-5 text-base leading-8 text-stone-600 sm:text-lg">
           <p>

@@ -1,4 +1,4 @@
-import { Check, FileText, MessageCircle, SearchCheck, Signature } from "lucide-react";
+import { ArrowRight, Check, FileText, MessageCircle, SearchCheck, Signature } from "lucide-react";
 import { SectionHeader } from "../components/SectionHeader";
 
 const eligibility = [
@@ -80,6 +80,18 @@ export function Eligibility() {
           where the agreement is not upheld, following a fair review and conversation.
         </p>
       </section>
+
+      {/* Apply CTA */}
+      <div className="mt-12 flex justify-center sm:mt-16">
+        <a
+          href="https://forms.gle/gbSqoTKMsPjhLkGfA"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 rounded bg-brand-800 px-6 py-3.5 text-base font-semibold text-white shadow-sm transition-colors hover:bg-brand-900 sm:text-lg"
+        >
+          Apply Now <ArrowRight size={20} />
+        </a>
+      </div>
     </main>
   );
 }
